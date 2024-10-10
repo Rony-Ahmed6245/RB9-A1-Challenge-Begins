@@ -196,7 +196,7 @@ button {
 /* subscribe section design  */
 .subscribe {
     max-width: 1250px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
