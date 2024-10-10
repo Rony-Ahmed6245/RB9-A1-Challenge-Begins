@@ -36,7 +36,7 @@ button {
 
 /* banner section design  */
 .banner {
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
