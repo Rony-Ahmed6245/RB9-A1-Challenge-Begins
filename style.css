@@ -19,12 +19,14 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo h1 {
     font-weight: 800;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
 
 }
+
 button {
     border: 1px solid black;
     padding: 10px 20px;
@@ -43,21 +45,25 @@ button {
     height: 100vh;
     width: 100%;
 }
-.banner-btn{
+
+.banner-btn {
     background: black;
     margin-top: 20px;
     color: whitesmoke;
 }
+
 .banner-content {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .content {
     width: 80%;
     text-align: center;
 }
+
 .banner-content h1 {
     font-size: 48px;
     font-weight: 600;
@@ -73,6 +79,7 @@ button {
     margin-top: 20px;
     background: rgba(13, 19, 33, 0.02);
 }
+
 .dev-content {
     display: flex;
     justify-content: center;
@@ -80,14 +87,17 @@ button {
     text-align: center;
     padding: 0 20px;
 }
+
 .text {
     width: 90%;
 }
+
 .dev-content h1 {
     font-size: 32px;
     font-weight: 800;
     margin: 10px 0;
 }
+
 .part-1 {
     display: flex;
     justify-content: space-between;
@@ -99,15 +109,18 @@ button {
     margin-top: 48px;
     border-radius: 10px;
 }
+
 .gradient {
     background-image: linear-gradient(90deg, #FAFAFB, #ffffff) !important;
 }
+
 .part-1-text {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .part-2-text {
     /* width: 50%; */
     display: flex;
@@ -122,11 +135,13 @@ button {
     margin: 20px auto;
     text-align: center;
 }
+
 .inspiration-text h1 {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 10px;
 }
+
 .video-intro {
     max-width: 1250px;
     display: flex;
@@ -138,22 +153,25 @@ button {
     border: 1px solid gray;
     margin-top: 20px;
 }
+
 .video {
     border-radius: 20px;
 }
 
-/* ================= */
+/* ========current target========= */
 .inspiration {
     max-width: 1250px;
     margin: 0 auto;
     margin-top: 48px;
 }
+
 .card {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
 }
+
 .card-content {
     border-radius: 10px;
     padding: 20px;
@@ -161,17 +179,21 @@ button {
     flex-direction: column;
     display: flex;
 }
+
 .button1 {
     text-decoration: underline;
     border: none;
     background: none;
 }
+
 .bg1 {
     background: #FFF6F4;
 }
+
 .bg2 {
     background: #F2F6FE;
 }
+
 .bg3 {
     background: #FFFDF2;
 }
@@ -187,6 +209,7 @@ button {
     border-radius: 10px;
     margin-top: 24px;
 }
+
 .target-text {
     display: flex;
     flex-direction: column;
@@ -205,12 +228,14 @@ button {
     border-radius: 10px;
     margin-top: 32px;
 }
+
 .banner-content1 {
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .content1 {
     width: 60%;
     text-align: center;
@@ -219,16 +244,19 @@ button {
     flex-direction: column;
     gap: 20px;
 }
+
 .content1 p {
     color: rgb(255, 255, 255);
 
 }
+
 .content1 h1 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
 
 }
+
 .input-field {
     padding: 10px 20px;
     border-radius: 10px;
@@ -243,6 +271,7 @@ footer {
     padding: 20px 0;
     margin-top: 48px;
 }
+
 .footer-content {
     max-width: 1250px;
     margin: 0 auto;
@@ -250,13 +279,291 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-content p {
     font-size: 20px;
     font-weight: 600;
 }
+
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+           responsive design 
+==========================================*/
+
+@media screen and (min-width: 0px) and (max-width: 560px) {
+    header nav {
+        max-width: 1250px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 25px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner {
+        background-image: url(./assets/Hero-bg.png);
+        background-size: cover;
+     
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1 {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 16px 0;
+    }
+    .banner-content img {
+        width: 50%;
+    }
+
+    .banner-btn {
+        background: black;
+        margin-top: 10px;
+        color: whitesmoke;
+    }
+
+/* =========== */
+    .developer {
+        max-width: 1250px;
+        margin: 0 auto;
+        /* padding: 50px 10px; */
+        border-radius: 16px;
+        margin-top: 20px;
+        background: rgba(13, 19, 33, 0.02);
+    }
+    
+    .dev-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .text {
+        width: 100%;
+    }
+    
+    .dev-content h1 {
+        font-size: 22px;
+        font-weight: 800;
+        margin: 10px 0;
+    }
+    
+    .part-1 {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        /* background: #ffffff; */
+        background-image: linear-gradient(90deg, #ffffff, #FAFAFB);
+        margin: 0 0px;
+        padding: 10px;
+        margin-top: 48px;
+        border-radius: 10px;
+    }
+    
+    .gradient {
+        background-image: linear-gradient(90deg, #FAFAFB, #ffffff) !important;
+    }
+    
+    .part-1-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    
+    .part-2-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        /* margin-left: 32px; */
+    }
+
+    /* ================= */
+    .inspiration-text {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+        padding: 0 10px;
+    
+    }
+    
+    .inspiration-text h1 {
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    
+    .video-intro {
+        max-width: 1250px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+        border: 1px solid gray;
+        margin-top: 20px;
+        margin: 0 10px;
+
+    }
+    
+    .video {
+        border-radius: 20px;
+        width:500px ;
+        height: 250px;
+
+    }
+
+    /* ============================ */
+    .inspiration {
+        max-width: 1250px;
+        margin: 0 auto;
+        margin-top: 48px;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 10px;
+    }
+    
+    .card-content {
+        border-radius: 10px;
+        padding: 10px;
+        gap: 20px;
+        flex-direction: column;
+        display: flex;
+    }
+ /* =========================== */
+
+ .cards{
+    padding: 0 10px;
+ }
+ .target-card {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    /* padding: 20px; */
+    gap: 24px;
+    border-radius: 10px;
+    margin-top: 24px;
+    
+}
+
+.target-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* ============================ */
+.subscribe {
+    max-width: 1250px;
+    background-image: url(./assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.banner-content1 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content1 {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content1 p {
+    color: rgb(255, 255, 255);
+
+}
+
+.content1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.input-field {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+footer {
+    background: #F7F8F8;
+    padding: 20px 0;
+    margin-top: 48px;
+}
+
+.footer-content {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-content p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 }
